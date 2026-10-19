@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: little-prince-stellar-studio
+    runtime: static
+    buildCommand: echo no build step required
+    staticPublishPath: .
+    autoDeployTrigger: off
+
